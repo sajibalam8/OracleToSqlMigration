@@ -47,7 +47,6 @@ namespace OracleDataMigrator
                 GetDataFromOracleAndInsertIntoMSQL(oracleconnectionString, sqlServerConnectionString, "SCADA_DATA_XFER");
                 */
 
-                /*
                  //GetTablesFromOracleAndInsertIntoMSQL(oracleconnectionString, sqlServerConnectionString);
                 // GetProceduresFromOracleAndInsertIntoMSQL(oracleconnectionString, sqlServerConnectionString);
                  GetViewsFromOracleAndInsertIntoMSQL(oracleconnectionString, sqlServerConnectionString);
@@ -57,7 +56,7 @@ namespace OracleDataMigrator
                  GetPackagesFromOracleAndInsertIntoMSQL(oracleconnectionString, sqlServerConnectionString);
                  GetTypesFromOracleAndInsertIntoMSQL(oracleconnectionString, sqlServerConnectionString);
                  GetSynonymsFromOracleAndInsertIntoMSQL(oracleconnectionString, sqlServerConnectionString);
-                */
+           
 
                 GetTablesFromOracleAndCreateIntoMSQL(oracleconnectionString, sqlServerConnectionString);
             Console.ReadLine();
